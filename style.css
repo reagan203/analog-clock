@@ -20,6 +20,7 @@ body{
     height: 500px;
     position: relative;
     background-color: lightgray;
+    border-radius: 50%;
     bottom: 50%;
     display: flex;
     justify-content: center;
@@ -42,7 +43,7 @@ body{
 
 
 .number{
-    transform:rotate(calc(30deg *var(--n)));
+    transform:rotate(calc(30deg * var(--n)));
     position: absolute;
     text-align: center;
     inset: 20px;
